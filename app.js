@@ -3,14 +3,14 @@ window.onscroll=function(){
     //variables to track the position of scrolling.
     var svalue=window.scrollY;
     var scrollPosition=window.pageYOffset;
-
+   //variables to select document elemrnts.
    var navBar= document.getElementById("myNav");
    var donButton=document.getElementById("Donete");
    var banner=document.getElementById("banner");
    var description=document.getElementById("description");
-
+   //scroll background image less speed as the page scrolls.
    banner.style.backgroundPosition=`center ${-scrollPosition /5 }px`;
-
+   // decrease paragraph opacity.
    description.style.opacity=`${1-scrollPosition /300}`;
 
    
