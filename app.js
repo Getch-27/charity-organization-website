@@ -17,10 +17,12 @@ window.onscroll=function(){
     if(window.pageYOffset > myNav.offsetTop){
         navBar.classList.add("sticky");
          donButton.classList.add("doanteButton");
+         donButton.style.border="none";
     }
     else{
         navBar.classList.remove("sticky");
         donButton.classList.remove("doanteButton");
+        donButton.style.border="#ffba00 1px solid";
     }
     
 };

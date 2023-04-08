@@ -40,9 +40,15 @@ nav {
     position: fixed;
     transform: translate(-88vw,300px);
     z-index: 999;
-    background-color: #ffba00;
+    background-image: url("images/donate.svg");
+    background-size:contain;
+    border: none;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
 
   }
+ 
+
   .logo img{
     height:40px;
     width:40px;
@@ -216,7 +222,7 @@ nav {
 #mission img {
     display: block;
     margin: 0 auto;
-    max-width: 10%;
+    max-width: 30%;
     height: auto;
   }
   
