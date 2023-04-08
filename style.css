@@ -253,9 +253,17 @@ nav {
     width: 50%;
     height: 100%;
   }
-
+  #contactUs a ,#workWithUs a{
+    display: block;
+    margin-left: 1%;
+    padding: 10px;
+    
+  }
+#newsletter{
+  border-left: #ffba00 0.3px solid;
+}
 #newsletter form{
-  margin: 25% ;
+  margin: 50%  0%;
 }
 
 a {
