@@ -1,6 +1,6 @@
 
 body{
-    background-color: #f5cc1400;
+    background-color: #f5cc1485;
     padding: 0;
     margin: 0;
 }
@@ -233,31 +233,13 @@ nav {
   
   /* Styles for the page footer */
   footer {
-    background-color: #333;
+    display:flex;
+    background-color: #222;
+    height: 50vh;
     color: #fff;
-    height: 100px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer-container {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .footer-message {
-    font-size: 16px;
-  }
-  
-  .footer-link {
-    font-size: 16px;
-  }
-  
-  .footer-link a {
-    color: #fff;
-    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
   }
   footer div{
     background-color: #ffbb0000;
