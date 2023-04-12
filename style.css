@@ -43,10 +43,11 @@ nav {
     background-image: url("images/donate.svg");
     background-size:contain;
     border: none;
+    color: #ffffff00;
     background-repeat: no-repeat;
     text-indent: -9999px;
+    }
 
-  }
  
 
   .logo img{
@@ -259,7 +260,7 @@ nav {
   border-left: #ffba00 0.3px solid;
 }
 #newsletter form{
-  margin: 50%  0%;
+  margin: 50%  10%;
 }
 
 a {

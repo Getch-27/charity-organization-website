@@ -51,6 +51,10 @@ backdrop-filter: blur(6.8px);
     border: none;
     width: 90%;
   }
+  input::placeholder {
+    color: #ffba00;
+  }
+  
   #donateRadios{
     display: flex;
     justify-content:space-evenly;
@@ -69,4 +73,16 @@ backdrop-filter: blur(6.8px);
         cursor: pointer;
         transition: background-color 0.3s ease-in-out;
     
+  }
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    border: 2px solid #ffba00;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
   }
