@@ -1,6 +1,6 @@
 
 body{
-    background-color: #f5cc1485;
+    background-color: #ff04f200;
     padding: 0;
     margin: 0;
 }
@@ -199,10 +199,7 @@ nav {
   }
   
 
-
-
-
-  #mission {
+#mission {
     display: flex;
     justify-content: space-around;
     background-color: #01060f;
@@ -244,7 +241,6 @@ nav {
     height: 50vh;
     color: #fff;
     padding: 20px;
-    text-align: center;
     margin-top: 50px;
   }
   footer div{
