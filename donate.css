@@ -33,6 +33,7 @@ backdrop-filter: blur(6.8px);
     width: 80%;
     border: #ffba00 solid 1px;
     margin: 0 auto;
+    padding: 10px 20px;
     height: 30px;
     border-radius: 7px;
   }
@@ -51,8 +52,21 @@ backdrop-filter: blur(6.8px);
     width: 90%;
   }
   #donateRadios{
-    padding: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px 20px;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
   }
-  
+  #donateButton{
+        display: block;
+        margin: 30px auto 0;
+        padding: 10px 20px;
+        background-color: #337ab7;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    
+  }
