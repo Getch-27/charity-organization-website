@@ -10,6 +10,7 @@
 img{
    width: 100%;
    object-fit: cover;
+  
    border-radius: .5rem;
 }
 .post{
@@ -24,4 +25,42 @@ img{
     box-shadow: 0px 4px 15px hsl(355deg 25% 15% / 10%);
     padding: 10px;
     
+}
+.post-title{
+    margin: 20px auto;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -moz-box-orient: vertical;
+}
+.post-description{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin: 6px 0 10px;
+}
+.read-more-button{
+    margin: 20px 0px 30px;
+    background-color:  #ffba00 ;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px hsl(355deg 25% 15% / 10%);
+
+    border: #e2af23 1px solid;
+}
+.read-more-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile img{
+    width: 40px;
 }
