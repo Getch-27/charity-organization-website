@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.post-container{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+   width: 100%;
+   object-fit: cover;
+   border-radius: .5rem;
+}
+.post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+    justify-content: center;
+    gap: 1.3rem;
+}
+.post-box{
+    
+    border-radius: 10px ;
+    box-shadow: 0px 4px 15px hsl(355deg 25% 15% / 10%);
+    padding: 10px;
+    
+}
