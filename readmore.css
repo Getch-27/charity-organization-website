@@ -6,7 +6,7 @@
 
 
 .post-container{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -25,12 +25,11 @@ img{
     border-radius: .5rem;
  }
 .post-title{
-    margin: 20px auto;
-    font-size: 0.9rem;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 2rem;
     font-weight: 600;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -moz-box-orient: vertical;
+   
 }
 .post-description{
     font-size: 0.8rem;
