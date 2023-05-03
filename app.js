@@ -1,4 +1,13 @@
-
+let Navlink=document.querySelectorAll('.nav-list');
+for(let i=0 ;i <Navlink.length;i ++){
+    Navlink[i].addEventListener('click',function(){
+        for(let j = 0 ; j< Navlink.length; j++){
+            Navlink[j].classList.remove('active');
+        }
+        this.classList.add('active');
+    
+    })
+}
 window.onscroll=function(){
     //variables to track the position of scrolling.
     var svalue=window.scrollY;

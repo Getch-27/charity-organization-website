@@ -32,6 +32,9 @@ section ul li.active{
     background-color: aqua;
     color: #fff;
 }
+.type .item-box.hide{
+    display: none;
+}
 .type{
     display: flex;
     justify-content: center;
@@ -45,6 +48,7 @@ section ul li.active{
      margin: 5px;
      display: block;
 }
+
 .type .item-box img{
     position: absolute;
     top: 0;
