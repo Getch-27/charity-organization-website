@@ -1,6 +1,57 @@
-.wraper{
-    display:flex;
-    justify-content:center;
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+section ul li {
+    list-style: none;
+    margin: 5px ;
+    background-color: #eee;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+section ul li.active{
     background-color: aqua;
+    color: #fff;
+}
+.type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.type .item-box{
+     position: relative;
+     width: 200px;
+     height: 200px;
+     margin: 5px;
+     display: block;
+}
+.type .item-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: ;
 }
