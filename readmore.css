@@ -21,8 +21,8 @@
 img{
     width: 100%;
     object-fit: cover;
-   
     border-radius: .5rem;
+    margin: 1.5rem auto;
  }
 .post-title{
     margin: 10px auto;
@@ -52,6 +52,10 @@ img{
     font-weight: 900;
     font-size: larger;
 
+}
+.share-header{
+    text-align: center;
+    margin: 47px;
 }
 .profile{
     display: flex;
