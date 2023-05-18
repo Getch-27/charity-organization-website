@@ -8,36 +8,20 @@
     <link rel="stylesheet" href="fundrising.css">
 </head>
 <body>
-    <html>
-        <head>
-            <title>Fundraising Page</title>
-            <link href="style.css" rel="stylesheet">
-        </head>
-        <body>
-            <header>
-                <h1>Fundraising Progress</h1>
-            </header>
-            <div class="progress-container">
-                <div class="progress-bar">
-                    <span class="progress-bar-fill"></span>
-                </div>
-                <div class="progress-text">
-                    <span id="progress-value">$0</span> raised out of $5000 goal
-                </div>
-            </div>
-            <div class="donation-section">
-                <h2>Donate Now!</h2>
-                <form>
-                    <label for="donation-amount">Amount:</label>
-                    <input type="number" id="donation-amount" name="donation-amount" placeholder="$0">
-                    <button type="submit">Donate</button>
-                </form>
-            </div>
-            <script src="script.js"></script>
-        </body>
-        </html>
-        
-
+    <div class="container">
+    <h1>Fundraising Progress</h1>
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+    <div class="amount-raised">
+        <h2>Total Raised: $<span id="amount">0</span></h2>
+    </div>
+    <form>
+        <label for="donation-amount">Enter Donation Amount:</label>
+        <input type="number" id="donation-amount" name="donation-amount" min="1" required>
+        <button type="submit" id="donate-btn">Donate</button>
+    </form>
+</div>
 
 
       <script src="fundrising.js"></script>
