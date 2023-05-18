@@ -18,7 +18,7 @@ donateForm.addEventListener("submit", (e) => {
     goal.innerHTML=fundraisingGoal;
     let percentageRaised = (totalDonations / fundraisingGoal) * 100;
    
-    if(percentageRaised > 100){
+    if(percentageRaised >= 100){
         progressBar.style.width =100 + "%";
         fundraisingGoal +=10000;
     }

@@ -26,10 +26,14 @@ h1 {
 
 .progress {
     height: 20px;
-    background-color: #3498db;
+    background-color: #ffba00;
     width: 0%;
     border-radius: 5px;
     transition: width 0.5s ease-in-out;
+}
+.progress h5{
+      color: #002b47;
+      font-weight: 900;
 }
 
 .amount-raised {
