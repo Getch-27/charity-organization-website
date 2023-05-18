@@ -1,4 +1,5 @@
 const progressBar = document.querySelector(".progress");
+const progressPersentage=document.querySelector(".percentage");
 const amountRaised = document.getElementById("amount");
 const donateForm = document.querySelector("form");
 const donationAmount = document.getElementById("donation-amount");
@@ -12,5 +13,13 @@ donateForm.addEventListener("submit", (e) => {
     totalDonations += donation;
     amountRaised.innerText = totalDonations;
     let percentageRaised = (totalDonations / fundraisingGoal) * 100;
-    progressBar.style.width = percentageRaised + "%";
+   
+    if(percentageRaised > 100){
+        progressBar.style.width =100 + "%";
+    }
+    else{
+        progressBar.style.width = percentageRaised + "%";
+    }
+    progressPersentage.innerHTML=percentageRaised.toFixed(1) + '%';
+    
 });
