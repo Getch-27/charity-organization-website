@@ -110,6 +110,8 @@ nav {
    #description p{
     font-size: 20px;
     font-weight: 700;
+    width: 100%;
+    white-space: pre-wrap;
    }
   #statstic{
     height: 20%;
