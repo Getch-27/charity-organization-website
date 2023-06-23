@@ -5,13 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/volunteer.css">
+    <link rel="stylesheet" href="/public/css/navBarAndFotter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>volunteer</title>
 </head>
 <body>
-    <header>
-        <h1>Volunteer Opportunities</h1>
-    </header>
-
+  <div id="banner">
+    <button id="Donete" onclick="location.href='/views/donete.html';" >Donate</button>
+      <nav id="myNav">
+        <div class="logo">
+          <a href="#"><img class="logoImage" src="/public/images/logo2-removebg.png" alt=""></a>
+         </div>
+        <div class="menu">
+          <ul>
+            <li class="nav-list "><a href="../index.html">Home</a></li>
+            <li class="nav-list"><a href="/views/about.html">About</a></li>
+            <li class="nav-list"><a href="/views/gallary.html">Gallary</a></li>
+            <li class="nav-list"><a href="/views/blog.html">Our Blog</a></li>
+            <li class="nav-list"><a href="/views/involveIn.html">Get Involved</a></li>
+            <li class="nav-list"><a href="#newsletter">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="description">
+      </div>
+    </div>
+<br><br><br>
     <section>
         <h2>How You Can Make a Difference</h2>
         <p>Welcome to our volunteer program! We offer various opportunities for you to contribute your time, skills, and passion towards making a positive impact. Join us in our mission to serve the community and create a better world.</p>
@@ -25,34 +45,34 @@
     Assist in organizing and managing fundraising events, charity runs, auctions, or galas. This may involve event setup, registration, ushering, or coordination.
   </dd>
   <dd class="image-container">
-    <img src="/images/volenter/event1.webp" alt="Event Support Image 1">
-    <img src="images/volenter/event2.jpg" alt="Event Support Image 2">
-    <img src="images/volenter/event3.jpg" alt="Event Support Image 3">
+    <img src="/public/images/volenter/event1.webp" alt="Event Support Image 1">
+    <img src="/public/images/volenter/event2.jpg" alt="Event Support Image 2">
+    <img src="/public/images/volenter/event3.jpg" alt="Event Support Image 3">
   </dd>
   <dt>Fundraising</dt>
   <dd>Help raise funds by organizing campaigns, reaching out to potential donors, making phone calls, or setting up crowdfunding initiatives.</dd>
   <dd class="image-container">
-    <img src="/images/volenter/fund.jpg" alt="Fundraising Image 1">
+    <img src="/public/images/volenter/fund.jpg" alt="Fundraising Image 1">
   </dd>
   <dt>Administrative Support</dt>
   <dd> Offer assistance with administrative tasks such as data entry, filing, answering calls, or managing emails.</dd>
   <dd  class="image-container">
-    <img src="/images/volenter/support.jpg" alt="Administrative Support Image 1">
-    <img src="/images/volenter/support2.jpg" alt="Administrative Support Image 1">
-    <img src="/images/volenter/support3.avif" alt="Administrative Support Image 1">
+    <img src="/public/images/volenter/support.jpg" alt="Administrative Support Image 1">
+    <img src="/public/images/volenter/support2.jpg" alt="Administrative Support Image 1">
+    <img src="/public/images/volenter/support3.avif" alt="Administrative Support Image 1">
   </dd>
   <dt>Mentoring and Tutoring</dt>
   <dd>Provide mentorship or tutoring services to beneficiaries or individuals supported by the charity, such as students, underprivileged youth, or individuals with specific needs.</dd>
   <dd class="image-container">
-    <img src="images/volenter/mentoring.jpg" alt="Mentoring and Tutoring Image 1">
-    <img src="images/volenter/mentoring2.jpg" alt="Mentoring and Tutoring Image 1">
-    <img src="images/volenter/mentoring3.jpeg" alt="Mentoring and Tutoring Image 1">
+    <img src="/public/images/volenter/mentoring.jpg" alt="Mentoring and Tutoring Image 1">
+    <img src="/public/images/volenter/mentoring2.jpg" alt="Mentoring and Tutoring Image 1">
+    <img src="/public/images/volenter/mentoring3.jpeg" alt="Mentoring and Tutoring Image 1">
   </dd>
   <dt >Skills-based Volunteering</dt>
   <dd> Offer your professional expertise or specialized skills to support the organization. This could include graphic design, web development, legal advice, accounting, or marketing assistance.</dd>
   <dd  class="image-container" >
-    <img src="images/volenter/skill.avif" alt="Skills-based Volunteering Image 1">
-    <img src="images/volenter/skill.jpg" alt="Skills-based Volunteering Image 1">
+    <img src="/public/images/volenter/skill.avif" alt="Skills-based Volunteering Image 1">
+    <img src="/public/images/volenter/skill.jpg" alt="Skills-based Volunteering Image 1">
   </dd>
 </dl>
 
@@ -82,9 +102,34 @@
         </form>
         
     </section>
-
     <footer>
-        <p>&copy; 2023 Your Organization. All rights reserved. | Contact: info@example.com</p>
+      <div id="workWithUs">
+        <h1>work with us</h1>
+        <a href="/views/fundrising.html">Fundraising</a>
+        <a href="/views/sponsor-us.html">sponsor</a>
+        <a href="/views/involveIn.html">Involve in</a>
+      </div>
+      <div id="contactUs">
+        <h1>Contact us</h1>
+        
+    <a href="mailto:your.email@example.com\"><i class="fa fa-envelope">Email us</i></a>
+    
+    <a href="tel:+123456789\"><i class="fa fa-phone"> Call us</i></a>
+    
+    <a href="https://www.facebook.com/YourPage/" target="_blank\"><i class="fa fa-facebook"> Follow us on facebook</i></a>
+    
+    <a href="https://twitter.com/YourPage/" target="_blank"><i class="fa fa-twitter"> Follow Us on Twitter</i></a>
+    
+      </div>
+      <div id="newsletter">
+        <form action="">
+          <label for="email">Subscribe to our Newsletter</label>
+          <input type="email" id="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+      
+        </form>
+      </div>
     </footer>
+  <script src="/public/js/navbar.js"></script>
 </body>
 </html>
