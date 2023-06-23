@@ -6,16 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fundrising</title>
     <link rel="stylesheet" href="/public/css/fundrising.css">
+    <link rel="stylesheet" href="/public/css/navBarAndFotter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
+    <div id="banner">
+        <button id="Donete" onclick="location.href='/views/donete.html';" >Donate</button>
+          <nav id="myNav">
+            <div class="logo">
+              <a href="#"><img class="logoImage" src="/public/images/logo2-removebg.png" alt=""></a>
+             </div>
+            <div class="menu">
+              <ul>
+                <li class="nav-list active"><a href="../index.html">Home</a></li>
+                <li class="nav-list"><a href="/views/about.html">About</a></li>
+                <li class="nav-list"><a href="/views/gallary.html">Gallary</a></li>
+                <li class="nav-list"><a href="/views/blog.html">Our Blog</a></li>
+                <li class="nav-list"><a href="/views/involveIn.html">Get Involved</a></li>
+                <li class="nav-list"><a href="/views/#newsletter">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div id="description">
+          </div>
+        </div>
+        <br><br>
     <div class="container">
-        <div class="descripion">
+        <div class="descripion" style="color: #fff;">
             <h2>Our cause</h2>
             <p>
                 Empowering Education aims to provide underprivileged children with access to quality learning opportunities. We strive to overcome barriers such as lack of resources, safe learning environments, and qualified teachers. Through our fundraising campaign, we seek your support to reach more children, improve educational infrastructure, and empower teachers. Together, let's create a world where every child has the opportunity to learn and thrive. Join us in our mission to provide equal learning opportunities for all children.
             </p>
         </div>
-    <h1>Fundraising Progress</h1>
+    <h1 style="color:#ffba00 ; font-family:cursive;">Fundraising Progress</h1>
     
     <div class="progress-bar">
         <div class="progress">
@@ -23,19 +47,47 @@
         </div>
     </div>
     <div class="amount-raised">
-        <h2>Our Goal: Birr <span id="goal">10000</span></h2>
-        <h2>Total Raised: Birr <span id="amount">0</span></h2>
+        <h2 style="color:#fff ;">Our Goal: Birr <span id="goal">10000</span></h2>
+        <h2 style="color:#fff ;">Total Raised: Birr <span id="amount">0</span></h2>
         
     </div>
     <form>
-        <label for="donation-amount">Enter Donation Amount:</label>
+        <label for="donation-amount" style="color:#ffba00 ;">Enter Donation Amount:</label>
         <input type="number" id="donation-amount" name="donation-amount" min="1" required>
         <button type="submit" id="donate-btn">Donate</button>
     </form>
-    <h4 class="thanks"></h4>
+    <h4 class="thanks" style="color:#fff ; font-size:50px;font-family:cursive;"></h4>
 </div>
+<footer>
+    <div id="workWithUs">
+      <h1>work with us</h1>
+      <a href="/views/fundrising.html">Fundraising</a>
+      <a href="/views/sponsor-us.html">sponsor</a>
+      <a href="/views/involveIn.html">Involve in</a>
+    </div>
+    <div id="contactUs">
+      <h1>Contact us</h1>
+      
+  <a href="mailto:your.email@example.com\"><i class="fa fa-envelope">Email us</i></a>
+  
+  <a href="tel:+123456789\"><i class="fa fa-phone"> Call us</i></a>
+  
+  <a href="https://www.facebook.com/YourPage/" target="_blank\"><i class="fa fa-facebook"> Follow us on facebook</i></a>
+  
+  <a href="https://twitter.com/YourPage/" target="_blank"><i class="fa fa-twitter"> Follow Us on Twitter</i></a>
+  
+    </div>
+    <div id="newsletter">
+      <form action="">
+        <label for="email">Subscribe to our Newsletter</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+    
+      </form>
+    </div>
+  </footer>
+  <script src="/public/js/navbar.js"></script>
 
-
-      <script src="fundrising.js"></script>
+      <script src="/public/js/fundrising.js"></script>
 </body>
 </html>

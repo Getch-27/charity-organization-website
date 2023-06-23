@@ -6,7 +6,7 @@ const goal = document.getElementById("goal");
 const donateForm = document.querySelector("form");
 const donationAmount = document.getElementById("donation-amount");
 
-let totalDonations = 0;
+let totalDonations = 90;
 let fundraisingGoal = 10000;
 
 donateForm.addEventListener("submit", (e) => {
