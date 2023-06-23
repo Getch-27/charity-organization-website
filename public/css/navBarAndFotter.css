@@ -35,7 +35,7 @@ nav {
     position: fixed;
     transform: translate(-88vw,300px);
     z-index: 999;
-    background-image: url("images/donate.svg");
+    background-image: url("/public/images/donate.svg");
     background-size:contain;
     border: none;
     color: #ffffff00;
