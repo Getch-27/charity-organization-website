@@ -74,11 +74,16 @@ nav {
     font-size: 16px;
     
   }
-  .menu li.active{
-    background-color: #ffba00;
+  .nav-list.active a {
+    background-color: #ffba00; /* Change the color for active links */
     color: #000000 !important;
-    border-radius: 3px;
+    padding: 10px 20px;
+    border-radius: 3px; 
   }
+  
+  /* .menu li.active{
+    
+  } */
  
   .menu a:hover {
     color: #ffba00;
