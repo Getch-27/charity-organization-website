@@ -41,50 +41,54 @@ body {
     margin-bottom: 15px;
     padding-left: 30px;
   }
-  
-  form label {
+  .form-container{
+    margin: 50px auto;
+    padding: 50px;
+    width: 500px;
+    border-radius: 10px;
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.37);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.637);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+}
+ 
+form {
+    margin-top: 20px;
+}
+
+label {
     display: block;
-    font-weight: bold;
     margin-bottom: 5px;
-  }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form input[type="tel"],
-  form select {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
     width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    padding: 10px;
     border: 1px solid #ccc;
-  }
-  
-  form select {
-    appearance: none;
-    background-color: #fff;
-    background-image: url("down-arrow.png");
-    background-repeat: no-repeat;
-    background-position: right 12px center;
-    padding-right: 40px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-  }
-  
-  form input[type="submit"] {
-    background-color: #008080;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    background-color: #ffba00;
     color: #fff;
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  form input[type="submit"]:hover {
-    background-color: #006666;
-  }
+}
+
+input[type="submit"]:hover {
+    background-color: #af8205;
+
+}
   
   /* Footer */
   footer {
