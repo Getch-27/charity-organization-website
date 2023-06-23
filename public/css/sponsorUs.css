@@ -4,7 +4,8 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-image:linear-gradient(195deg,rgb(73, 71, 71) 10%,rgb(255, 255, 255) 20%);
+
   }
   
   header {
