@@ -15,9 +15,7 @@ html{
     background-size:cover;
     background-attachment: fixed;
    }
-   .logo{
-    margin-left: 20px;
-  }
+ 
    #description{
     position: absolute;
     color: #ffffff;
@@ -211,55 +209,3 @@ html{
    transition: transform 0.5s ease-out;
  }
   
-  /* Styles for the page footer */
-  footer {
-    display:flex;
-    background-color: #222;
-    height: 50vh;
-    color: #fff;
-    padding: 20px;
-    margin-top: 50px;
-  }
-  footer div{
-    background-color: #ffbb0000;
-    border-right-style: solid 5px white;
-    width: 50%;
-    height: 100%;
-  }
-  #contactUs a ,#workWithUs a{
-    display: block;
-    margin-left: 1%;
-    padding: 10px;
-    
-  }
-#newsletter{
-  border-left: #ffba00 0.3px solid;
-}
-#newsletter form{
-  margin: 20%  10%;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input[type="email"], button[type="submit"] {
-    background-color: #fff;
-    border: none;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-button[type="submit"] {
-    background-color:#ffba00;
-    color: #fff;
-    cursor: pointer;
-}
