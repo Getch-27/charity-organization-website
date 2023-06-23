@@ -88,9 +88,11 @@ nav {
   
   /* Styles for the page footer */
   footer {
-    display:flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Example column sizes */
+    grid-template-rows: auto; /* Example row sizes */
+    gap: 10px; /* Example gap between grid items */
     background-color: #222;
-    height: 50vh;
     color: #fff;
     padding: 20px;
     margin-top: 50px;
@@ -138,3 +140,23 @@ button[type="submit"] {
     color: #fff;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+  footer {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+    grid-template-rows: auto; /* Automatically adjust row sizes */
+    justify-items: center;
+  }
+  #newsletter{
+    border-left: none;
+  }
+  #newsletter ,#contactUs ,#workWithUs{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
