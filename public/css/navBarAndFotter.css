@@ -154,6 +154,20 @@ button[type="submit"] {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  #myNav{
+    display: block;
+  }
+  .logo{
+    margin-left: 50%;
+  }
+  .menu{
+    width: 100%;
+  }
+  .logoImage{
+   height: 500px;
+  }
+}
 
 
 
