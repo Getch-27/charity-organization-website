@@ -36,13 +36,6 @@ window.onscroll=function(){
     
 };
 
-// const rotateImage = document.querySelector('.logoImage');
-
-// window.addEventListener('scroll', () => {
-//   const scrollTop = window.pageYOffset;
-//   const angle = scrollTop * 10;
-//   rotateImage.style.transform = `rotate(${angle}deg)`;
-// });
 
 // js for FAQ
 var faqs = document.querySelectorAll('.faq img');
