@@ -8,7 +8,7 @@ html{
   scroll-behavior: smooth;
 }
   #banner{
-    height:95vh;
+    height:100vh;
     width: 100%;
     top:100px;
     background-image:linear-gradient(45deg,rgba(0, 0, 0, 0.199),rgb(0, 0, 0)),url("/public/images/wallpaperflare.com_wallpaper.jpg");
@@ -16,18 +16,19 @@ html{
     background-attachment: fixed;
    }
   #description{
-    position: absolute;
+    position: relative;
     color: #ffffff;
-    width: 40vw;
-    top: 45%;
-    left: 55%;
-    transition: translate(-50% ,-50%);
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    transition: translate(50% ,-50%);
+   
    }
    #description p{
     font-size: 20px;
     font-weight: 700;
     width: 100%;
-    white-space: pre-wrap;
+    text-align: justify
    }
   #statstic,#mission{
     display: grid;
@@ -39,9 +40,9 @@ html{
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 300px;
+    width: 400px;
     height: max-content;
-    margin:-100px  0px  100px;
+    margin:-50px  0px  100px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #000000;

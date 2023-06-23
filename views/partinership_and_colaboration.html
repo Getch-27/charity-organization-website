@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partnering for a Better Future</title>
     <link rel="stylesheet" href="/public/css/partinership_and_colaboration.css">
+    <link rel="stylesheet" href="/public/css/navBarAndFotter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 <body>
+  <div id="banner">
+    <button id="Donete" onclick="location.href='/views/donete.html';" >Donate</button>
+      <nav id="myNav">
+        <div class="logo">
+          <a href="#"><img class="logoImage" src="/public/images/logo2-removebg.png" alt=""></a>
+         </div>
+        <div class="menu">
+          <ul>
+            <li class="nav-list active"><a href="../index.html">Home</a></li>
+            <li class="nav-list"><a href="/views/about.html">About</a></li>
+            <li class="nav-list"><a href="/views/gallary.html">Gallary</a></li>
+            <li class="nav-list"><a href="/views/blog.html">Our Blog</a></li>
+            <li class="nav-list"><a href="/views/involveIn.html">Get Involved</a></li>
+            <li class="nav-list"><a href="/views/#newsletter">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="description">
+      </div>
+    </div>
+    <br><br><br>
     <h1>Partnering for a Better Future: Collaborating for Change</h1>
     <p>Welcome to [Charity Organization Name], where we believe in the power of collaboration and partnerships to make a positive impact in the world. Together, we can create lasting change and bring hope to those in need. We invite you to join us on this journey of compassion and transformation.</p>
   
@@ -55,9 +80,34 @@
         </form>
         
     </section>
-  
-    <script>
-      // You can add any additional client-side validation or functionality here
-    </script>
+    <footer>
+      <div id="workWithUs">
+        <h1>work with us</h1>
+        <a href="/views/fundrising.html">Fundraising</a>
+        <a href="/views/sponsor-us.html">sponsor</a>
+        <a href="/views/involveIn.html">Involve in</a>
+      </div>
+      <div id="contactUs">
+        <h1>Contact us</h1>
+        
+    <a href="mailto:your.email@example.com\"><i class="fa fa-envelope">Email us</i></a>
+    
+    <a href="tel:+123456789\"><i class="fa fa-phone"> Call us</i></a>
+    
+    <a href="https://www.facebook.com/YourPage/" target="_blank\"><i class="fa fa-facebook"> Follow us on facebook</i></a>
+    
+    <a href="https://twitter.com/YourPage/" target="_blank"><i class="fa fa-twitter"> Follow Us on Twitter</i></a>
+    
+      </div>
+      <div id="newsletter">
+        <form action="">
+          <label for="email">Subscribe to our Newsletter</label>
+          <input type="email" id="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+      
+        </form>
+      </div>
+    </footer>
+    <script src="/public/js/navbar.js"></script>
 </body>
 </html>
