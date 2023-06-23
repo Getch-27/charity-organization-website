@@ -4,34 +4,45 @@
 <head>
     <title>Get Involved | Our Charity</title>
     <link rel="stylesheet" type="text/css" href="/public/css/involvein.css">
+    <link rel="stylesheet" href="/public/css/navBarAndFotter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <header>
+       
+    <div id="banner">
+        <button id="Donete" onclick="location.href='/views/donete.html';" >Donate</button>
+          <nav id="myNav">
+            <div class="logo">
+              <a href="#"><img class="logoImage" src="/public/images/logo2-removebg.png" alt=""></a>
+             </div>
+            <div class="menu">
+              <ul>
+                <li class="nav-list active"><a href="../index.html">Home</a></li>
+                <li class="nav-list"><a href="/views/about.html">About</a></li>
+                <li class="nav-list"><a href="/views/gallary.html">Gallary</a></li>
+                <li class="nav-list"><a href="/views/blog.html">Our Blog</a></li>
+                <li class="nav-list"><a href="/views/involveIn.html">Get Involved</a></li>
+                <li class="nav-list"><a href="#workWithUs">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div id="description">
+          </div>
+        </div>
+        <br><br>
         <h1>Get Involved</h1>
-        <nav>
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="#sponsorship">Sponsorship</a></li>
-                <li><a href="#donation">Donate</a></li>
-                <li><a href="#volunteering">Volunteer</a></li>
-                <li><a href="#partnership">Partnership</a></li>
-                <li><a href="#collaboration">Collaboration</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-
     <section id="sponsorship">
 
         <div class="content-wrapper">
-            <img src="images/sponser.png" alt="Sponsorship Image">
+            <img src="/public/images/sponser.png" alt="Sponsorship Image">
             <div class="float-left">
                 <h2>Sponsorship</h2>
                 <p>Become a sponsor and support our cause. Your sponsorship helps us make a lasting impact in the
                     community. We offer various sponsorship levels, each with unique benefits and visibility
                     opportunities.</p>
-                <button class="btn"><a href="/sponsor-us.html">SPONSOR</a></button>
+                <button class="btn"><a href="/views/sponsor-us.html">SPONSOR</a></button>
             </div>
 
 
@@ -48,9 +59,9 @@
                 <p>Your generous donation can make a significant difference in the lives of those in need. We accept
                     one-time donations, monthly contributions, and sponsorship for specific programs.</p>
 
-                <button class="btn" ><a href="donete.html">DONETE NOW</a></button>
+                <button class="btn" ><a href="/views/donete.html">DONETE NOW</a></button>
             </div>
-            <img src="images/donate-orange.png" alt="Donation Image">
+            <img src="/public/images/donate-orange.png" alt="Donation Image">
             <div class="clearfix"></div>
         </div>
 
@@ -59,12 +70,12 @@
     <section id="volunteering">
 
         <div class="content-wrapper">
-            <img src="images/Volunteers-Raised-Hands-MHagerty2222.png" alt="Volunteer Image">
+            <img src="/public/images/Volunteers-Raised-Hands-MHagerty2222.png" alt="Volunteer Image">
             <div class="float-left">
                 <h2>Volunteer</h2>
                 <p>Join our dedicated team of volunteers and make a positive impact. We offer
                     various volunteer opportunities, ranging from one-time events to long-term commitments.</p>
-                <button class="btn" ><a href="/volunteer.html">Volunteer now</a></button>
+                <button class="btn" ><a href="/views/volunteer.html">Volunteer now</a></button>
             </div>
 
             <div class="clearfix"></div>
@@ -83,11 +94,11 @@
                     partnerships.
                 </p>
 
-                <button class="btn" > <a href="/partinership_and_colaboration.html ">Be Partiner</a></button>
+                <button class="btn" > <a href="/views/partinership_and_colaboration.html ">Be Partiner</a></button>
                 
 
             </div>
-            <img src="images/partinership.png" alt="Partnership Image">
+            <img src="/public/images/partinership.png" alt="Partnership Image">
                 <div class="clearfix"></div>
 
         </div>
@@ -96,12 +107,12 @@
     <section id="collaboration">
         
         <div class="content-wrapper">
-            <img src="images/colaboration.jpg" alt="Collaboration Image">
+            <img src="/public/images/colaboration.jpg" alt="Collaboration Image">
             <div class="float-right">
                 <h2>Collaboration</h2>
                 <p >We value collaboration and actively seek opportunities to work with other
                     organizations and individuals who are passionate about our cause.</p>
-                    <button class="btn"> <a href="">Work with Us</a></button>
+                    <button class="btn"> <a href="/views/partinership_and_colaboration.html">Work with Us</a></button>
     
             </div>
             
@@ -110,11 +121,36 @@
         </div>
     </section>
 
-    <!-- Other sections -->
-
     <footer>
-        <p>&copy; 2023 Our Charity. All rights reserved.</p>
-    </footer>
+        <div id="workWithUs">
+          <h1>work with us</h1>
+          <a href="/views/fundrising.html">Fundraising</a>
+          <a href="/views/sponsor-us.html">sponsor</a>
+          <a href="/views/involveIn.html">Involve in</a>
+        </div>
+        <div id="contactUs">
+          <h1>Contact us</h1>
+          
+      <a href="mailto:your.email@example.com\"><i class="fa fa-envelope">Email us</i></a>
+      
+      <a href="tel:+123456789\"><i class="fa fa-phone"> Call us</i></a>
+      
+      <a href="https://www.facebook.com/YourPage/" target="_blank\"><i class="fa fa-facebook"> Follow us on facebook</i></a>
+      
+      <a href="https://twitter.com/YourPage/" target="_blank"><i class="fa fa-twitter"> Follow Us on Twitter</i></a>
+      
+        </div>
+        <div id="newsletter">
+          <form action="">
+            <label for="email">Subscribe to our Newsletter</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        
+          </form>
+        </div>
+      </footer>
+    <script src="/public/js/navbar.js"></script>
+
 </body>
 
 </html>
